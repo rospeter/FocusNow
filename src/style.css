@@ -1,0 +1,39 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* 🌟 核心改动：切换为明亮配色变量 */
+  color-scheme: light;
+  color: #374151; /* 文字颜色：深灰（不是纯黑，纯黑太硬） */
+  background-color: #f3f4f6; /* 网页背景：柔和的浅灰 */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow: hidden; /* 依然禁止 body 滚动 */
+  background-color: #f3f4f6; /* 确保一致 */
+}
+
+#app {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+button {
+  font-family: inherit;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}

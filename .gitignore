@@ -1,0 +1,37 @@
+# 依赖和构建输出
+node_modules
+/dist
+/dist-ssr
+/coverage
+
+# Vite/NPM 缓存和临时文件
+# Vite 临时文件夹
+/.vite/
+/temp
+# npm/yarn/pnpm 自动生成的日志和缓存
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# 安全和本地配置
+# 包含数据库连接、API密钥等敏感信息
+.env                  
+.env.*
+.local
+*.local
+
+# IDE 和系统文件 
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
